@@ -1,0 +1,50 @@
+.acount{
+    width: 96%;
+    background-color: #fff;
+    margin: auto;
+    text-align: right;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2 ) ;
+    border-radius: 4px;
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+    padding: .7rem;
+  }
+
+  .acount__div{
+    width: 60%;
+    background-color: yellow;
+    margin-left: auto;
+     padding: .8rem;
+}
+.p__color{
+    font-size: 14px;
+    color: #EE6A6E;
+}
+.acount__P{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8B8A8A;
+}
+.acount__P__small{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8B8A8A;
+}
+.img{
+    width: 1.5rem;
+}
+ 
+#body__sucses{
+    text-align: right !important;
+    direction: rtl;
+    align-items: right !important;
+    justify-content: right !important;
+      /* display: unset !important; */
+}
+.sun__small{
+    font-size: 12px;
+}
+.sun__small__clor{
+    color: blue;
+}

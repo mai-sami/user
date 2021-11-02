@@ -1,0 +1,280 @@
+.sidebar__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebaerImage{
+    width: 14rem;
+    padding: .4rem;
+     
+}
+.span__Colos{
+    color: #8B8A8A;
+    font-size: 16px;
+    font-weight: 400;
+}
+.span__Colo{
+     color: #7CB264;
+     padding-right: .2rem;
+}
+.span__text{
+    padding-top: .6rem;
+    display: flex;
+  
+     align-items: center;
+    justify-content: space-between;
+}
+.css-10hburv-MuiTypography-root {
+text-align: right;
+ color: #8B8A8A !important;
+ font-size: 17px !important;
+ font-weight: 300 !important;
+}
+.css-cveggr-MuiListItemIcon-root {
+min-width: 33px !important;
+margin-right: 1.2rem !important;
+
+}
+.css-h4y409-MuiList-root {
+margin-right: 1.2rem !important;
+height: 50vh;
+}
+
+.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root.Mui-selected{
+    background-color: #7CB264 !important;
+    color: white !important;
+
+}
+    .css-10hburv-MuiTypography-root:hover {
+
+        color: white !important;
+    }
+    #bottom{
+        position: absolute !important;
+         bottom: 12% !important;
+         width: 100%;
+     }
+.acouunt__dib{
+    width: 65%;
+    margin: auto;
+    background-color: #FF987A;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding:8px;
+
+
+}
+.account{
+    background-color: transparent !important;
+     border: none !important;
+     font-size: 13px !important;
+     padding: 0 !important;
+}
+ 
+
+/***********modal**********/
+.modal-content{
+    border: none !important ;
+    border-radius: 20px  !important;
+    width: 100% ;
+   min-height: 280px ;
+   align-items: center !important;
+      text-align: center !important;
+    padding: 0px ;
+}
+.modal-header{
+    background-color: #FF987A;
+    color: white;
+    align-items: center !important;
+      text-align: center !important;
+      width: 100% !important;
+      justify-content: center !important;
+      border: none !important;
+      border-top-left-radius: calc(.9rem - 1px) !important;
+      border-top-right-radius: calc(.9rem - 1px) !important;
+    }
+.modal-title{
+    margin: auto ;
+    font-size: 20px;
+    font-family: regularFont, serif;
+    line-height: 35px;
+    font-weight: 300 !important;
+
+    color: #FF987A;
+}
+.btn-close{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 3px 6px;
+    width:.4rem;
+    height: .7rem;
+    opacity: none !important;
+    line-height: 20px;
+    right: 0px !important;
+    margin: 0px !important;
+    top: -8px !important;
+    font-size: 15px;
+      border-radius: 18px !important;
+    border: none;
+}
+.modal-body{
+    padding:1rem 0 !important ;
+}
+.modal-body p {
+    font-size: 13px;
+    color: #707070;
+    line-height: 15px;
+    font-family: regularFont, serif ;
+    /*font-weight: 100;*/
+    text-align: right;
+}
+.modal-footer {
+    display: flex ;
+    justify-content: center;
+padding: 0px !important;
+    text-align: center;
+}
+#yes{
+    font-size: 20px;
+    padding-top: 1rem;
+    font-weight: 500;
+}
+.div__buttons{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+ }
+ 
+#sure {
+    background-color: transparent !important;
+    border: 1px solid #656565 !important;
+    color: #656565;
+    width: 40%;
+    padding: 8px;
+    margin: 2px;
+
+}
+
+#sure:focus {
+    background-color: #FF987A !important;
+    border: none !important;
+    color: white;
+
+}
+.color__green{
+    width: 55px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: white;
+    border-radius: 18px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #7CB264;
+}
+.carousel{
+    width: 70%;
+    margin: auto;
+}
+.carousel-indicators {
+display: none !important;
+}
+#item{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+     width: 3.5rem !important;
+    height: 3.5rem !important;
+    border-radius: 50%;
+    background-color:#FF987A !important;
+color: yellow !important;
+}
+
+#mods{
+    background-color: #7CB264 !important;
+}
+
+
+#sures {
+    background-color: #7CB264 !important;
+    border: none !important;
+    color: white;
+    width: 40%;
+    padding: 12px;
+ 
+}
+.taggle__dis{
+    width: 60%;
+    margin: auto;
+     align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+     color: white;
+    padding:8px;
+}
+.taggle{
+    font-size: 9px;
+    color: #656565;
+
+}
+.taggle__small{
+    color: #FF987A;
+}
+ 
+
+ 
+#suces{
+    background-color: transparent !important;
+     border: none !important;
+     font-size: 13px !important;
+     width: 100%;
+     padding: 0 !important;
+}
+.acouunt__dibs{
+     margin: auto;
+    background-color: #7CB264;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    padding:8px;
+
+
+}
+#sure__text {
+    background-color: transparent !important;
+    border: 1px solid #656565 !important;
+    color: #656565;
+    width: 40%;
+    padding: 8px;
+    margin: 2px;
+
+}
+
+#sure__text:focus {
+    background-color: #7CB264 !important;
+    border: none !important;
+    color: white;
+
+}
+
+.linl{
+    text-decoration: none;
+}

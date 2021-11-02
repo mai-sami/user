@@ -1,0 +1,90 @@
+.index{
+    width: 96%;
+    background-color: #fff;
+    margin-right: auto;
+    text-align: right;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2 ) ;
+    border-radius: 4px;
+    display: flex;
+    direction: rtl;
+    flex-direction: column;
+    padding: .7rem;
+  }
+ .index__p{
+     font-size: 18px;
+     color: #8B8A8A;
+     font-weight: 500;
+ }
+ .profile-pic {
+    color: transparent;
+    transition: all 0.3s ease;
+    display: flex;
+     align-items: center;
+    position: relative;
+     transition: all 0.3s ease;
+}
+.profile-pic input {
+    display: none;
+}
+.profile-pic img {
+    position: absolute;
+    object-fit: cover;
+    width: 150px;
+    background-color: antiquewhite;
+
+    height: 150px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, .35);
+    border-radius: 100px;
+    z-index: 0;
+}
+.profile-pic .-label {
+    cursor: pointer;
+    height: 165px;
+    width: 165px;
+}
+.profile-pic:hover .-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 10000;
+    color: #fafafa;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100px;
+    margin-bottom: 0;
+}
+.profile-pic span {
+    display: inline-flex;
+    padding: 0.2em;
+    height: 2em;
+}
+ 
+.seeting__div{
+    width: 30%;
+    margin-left: auto;
+     padding: .8rem;
+}
+#lable__seting{
+    font-size: 13px;
+    color: #8B8A8A;
+ }
+ #input__seeting{
+    color: #8B8A8A;
+
+     font-size: 12px;
+     padding: 11px !important;
+ }
+ .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+color: #7CB264 !important;
+ }
+ #save{
+     background-color: #7CB264;
+ font-weight: 500 !important;
+ font-size: 18px;
+width: 100%;
+margin: auto !important;
+text-align: center;
+padding: 5px !important;
+border: none !important;
+color: white;
+}

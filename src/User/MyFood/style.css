@@ -1,0 +1,224 @@
+.food{
+     background-color: yellow;
+  text-align: right;
+     width: 97%;
+     margin: auto;
+    }
+  .homes{
+       flex-direction: column;
+      width: 90%;
+   }
+
+   .food__P{
+       font-size: 12px;
+       color: #8B8A8A;
+   }
+   .row__first{
+       display: flex;
+      
+       align-items: center;
+       justify-content: space-between;
+   }
+   #row__button {
+     border:none !important;
+    color: #656565;
+    width: 20%;
+    font-size: 14px;
+    border-radius: 8px;
+    font-weight: 500;
+    background: #F2F2F2 !important;
+    padding: 6px;
+    
+ 
+}
+.row_p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #656565;
+
+}
+ .name__food{
+    font-size: 14px;
+    position: unset !important;
+    color: #FF987A;
+
+ }
+.cell__all{
+ width: 98%;
+ padding-top: .6rem;
+ margin: auto;
+}
+
+
+#carousel{
+    background-color: #faaf00;
+    justify-content: right;
+    display: flex;
+flex-direction: column;
+  
+}
+
+.flickity-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: right !important;
+    display: flex;
+     flex-direction: column;
+    align-items: right !important;
+
+}
+ 
+.flickity-enabled.is-draggable .flickity-viewport {
+ 
+     display: flex;
+    flex-direction: column;
+    height: 88vh !important;
+}
+.carousel-cells.is-selected {
+    position: unset !important;
+    
+}
+.as{
+     flex-direction: column;
+     width: 95%;
+    align-items: center;
+    margin-left: auto;
+    justify-content: center;
+
+ }
+
+.carousel-cells {
+    width: 40%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2 ) ;
+direction: rtl;
+    height: 90px;
+    display: flex;
+    padding: 4px;
+    border-radius: 5px;
+    align-items: center;
+     border: 1px solid #8B8A8A;
+     position: unset !important;margin-bottom: 21px;
+
+   }
+ 
+ .flickity-slider{
+      /* justify-content: right; */
+      /* display: flex; */
+      /* grid-template-columns: 33ch auto; */
+/* flex-direction: column; */
+        flex-flow: column-reverse wrap-reverse;
+        justify-content: center;
+        align-content: space-around;
+  /* width: 100%; */
+/* gap: 10px; */
+      /* direction: rtl; */
+     /* background-color: #c5aaa2; */
+ /* align-items: right; */
+    }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+     line-height: 200px;
+    font-size: 80px;
+ 
+   }
+ .im{
+     width:5rem;
+      height: 5rem;
+     padding: 7px;
+ }
+   .flex__foods{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+     justify-content: srgb(10, 245, 10)-between;
+ }
+ .a{
+     display: flex;
+     width: 100%;
+     text-align: right;
+     align-items: right;
+     flex-direction: column;
+ }
+   .css-dqr9h-MuiRating-label {
+
+    color: #faaf00 !important;
+
+
+   }
+   .flex__foods__img{
+       width: 1.2rem;
+       height:1.2rem;
+        margin-left: 2px;
+   }
+   .flex__foods__span{
+       color: #707070;
+       font-size: 13px;
+       font-weight: 600;
+   }
+   .flex__foods__PP{
+    color: #707070;
+    font-weight: 500;
+    font-size: 12px;
+     line-height: 2;
+
+   }
+   .flex__foods__PPs{
+    color: #707070;
+    font-size: 14px;
+     line-height: 2;
+     font-weight: 600;
+
+   }
+
+ 
+   .flickity-prev-next-button {
+    top:100% !important;
+    width: 30px !important;
+     height: 30px !important;
+     border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.flickity-button {
+    position: absolute;
+    top:100% !important;
+
+     border: none;
+    color: rgb(255, 249, 249) !important;
+    background: #7CB264 !important ;
+}
+.flickity-prev-next-button.previous{
+    left: 2px;
+}
+.flickity-prev-next-button.next {
+    left: 5% !important;
+    right: unset !important;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+   #v{
+       background-color: yellowgreen !important;
+   }
+   .cell{
+    background-color: white !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+     }
