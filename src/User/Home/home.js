@@ -4,7 +4,9 @@ import Sidebar  from '../Headers/Sidebar'
 import Food  from '../MyFood/Food'
 import Index  from '../Seeting/index'
 import Acount  from '../Acount/acount'
+import Bill  from '../Bills/Bill'
 
+ 
 function Home() {
     return (
         <>
@@ -52,8 +54,28 @@ function acount() {
 
             <Sidebar />
              </div>
+
+             
           </>
     )
 }
 
-export {Home ,seeting,acount}
+function Bills() {
+    return (
+        <>
+        <div className="home">
+        <div className="homes">
+
+            <Header />
+            <Bill/>
+
+            </div>
+
+            <Sidebar />
+             </div>
+          </>
+    )
+}
+
+
+export {Home ,seeting,acount ,Bills}

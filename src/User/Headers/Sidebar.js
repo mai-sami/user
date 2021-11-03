@@ -13,13 +13,16 @@ import FastfoodIcon from '@mui/icons-material/Fastfood';
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import { Button, Carousel } from 'react-bootstrap';
 import PauseIcon from '@mui/icons-material/Pause';
-import { Modal } from 'react-bootstrap';
+import { Modal,Col } from 'react-bootstrap';
 import puse from '../image/puse.png';
 import suucses from '../image/maps-and-flagss.png';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import {Link} from 'react-router-dom';
 
 import Group from '../image/Group.png';
+import FormLabel from '@mui/material/FormLabel';
+import Radio from '@mui/material/Radio';
+import FormControlLabel from '@mui/material/FormControlLabel';
 
  
 var Numbers = [2, 5, 4, 7, 8, 6,]
@@ -32,6 +35,10 @@ function Sidebar() {
     const [subsecribe, setSubsecribe] = React.useState(false);
 
 const[taggle,setTaggle] =React.useState(true)
+
+const taggles = () => {
+    taggle ? setTaggle(false) : setTaggle(true)
+  }
     const handleListItemClick = (event, index) => {
         setSelectedIndex(index);
     };
@@ -147,11 +154,15 @@ const[taggle,setTaggle] =React.useState(true)
                     <ListItemButton
                         selected={selectedIndex === 3}
                         onClick={(event) => handleListItemClick(event, 3)}
-                    >
+                    > 
                         <ListItemIcon>
                             <ReceiptLongIcon />
                         </ListItemIcon>
+                        <Link className="linl" to='/bills'>
+
                         <ListItemText primary="الفوترة" />
+                        </Link>
+
                     </ListItemButton>
 
                     <ListItemButton
@@ -260,15 +271,25 @@ const[taggle,setTaggle] =React.useState(true)
                 keyboard={false}
                 centered
              >
-                <Modal.Header    id="mods"
+                <Modal.Header    id="modss"
  closeButton>
                        تم ارسال الطلب
                 </Modal.Header>
                 <Modal.Body id="body__sucse">
                     <img src={suucses} alt="" />
                     <br />
-                    <p id="yes">   ..تم ارسال طلبك سيتم التواصل معك من قبل الادارة  </p>
-   
+                    <Col>
+
+<div className="div__select" controlId="exampleForm.ControlTextarea1">
+  <FormLabel id="details" component="legend">      هل ترغب بتوصيل الوجبات إلى مكانك؟</FormLabel>
+
+
+
+  <FormControlLabel value="female" onClick={taggles} control={<Radio />} label="نعم " />
+  <FormControlLabel value="male" control={<Radio />} label="لا" />
+
+</div>
+</Col>   
   
                 </Modal.Body>
                 <div className="div__buttons">
@@ -308,7 +329,7 @@ const[taggle,setTaggle] =React.useState(true)
                 keyboard={false}
                 centered
              >
-                <Modal.Header    id="mods"
+                <Modal.Header    id="modss"
  closeButton>
                         تفعيل الاشتراك
                 </Modal.Header>

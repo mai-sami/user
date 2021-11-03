@@ -20,16 +20,39 @@ import BigGreen from '../image/BigGreen.png'
 import reds from '../image/reds.png'
 
 import './style.css'
-var foods = [{ day: "فطور  ", role:"5",image: foodim,  name: "توست الأفوكادو مع البيض", price: 220, priceType: 120 },
+import Box from '@mui/material/Box';
+import Stepper from '@mui/material/Stepper';
+import Step from '@mui/material/Step';
+import StepLabel from '@mui/material/StepLabel';
+import StepContent from '@mui/material/StepContent';
+ import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
+import comments from '../image/comments.png'
+import time from '../image/time.png'
+import { Steps } from 'antd';
+
+  var foods = [{ day: "فطور  ", role:"5",image: foodim,  name: "توست الأفوكادو مع البيض", price: 220, priceType: 120 },
  
 { day: "  غذاء", image: yallow, role: "3",   name: "توست الأفوكادو مع البيض", price: 220, priceType: 120 },
 { day: "عشاء  ", image: green, role: "2",   name: "توست الأفوكادو مع البيض", price: 220, priceType: 120 },
 { day: "  سلطة", image: red, role: "4",  name: "توست الأفوكادو مع البيض", price: 220, priceType: 120 },
 { day: "  وجبات خفيفة", image: greens, role: "1",  name: "توست الأفوكادو مع البيض", price: 220, priceType: 120 },
-{ day: "  فطور", image: foodim, role: "6",   name: "توست الأفوكادو مع البيض", price: 220, priceType: 120 },
-
+ 
 ];
 
+
+const steps = [
+  {
+    label: ' جاري توصيل الطلب',
+    description: "سيصل الك موظف التوصيل في أقرب وقت ممكن",
+  },
+  {
+    label: '  تم التسيلم     ',
+    description:
+      ' الطلب الان وصل اليك في المكان المناسب ',
+  },
+  
+];
 
 
 const getBadgeColor = role => {
@@ -49,22 +72,77 @@ const getBadgeColor = role => {
     }
   };
 function Food() {
-    const flickityOptions = {
-        initialIndex: 1,
-        pageDots: false
+  const [activeStep, setActiveStep] = React.useState(0);
+  const { Step } = Steps;
 
-      }
+  
+
+  const flickityOptions = {
+    initialIndex: 0,
+     pageDots:false,
+      groupCells: true,
+   }
+
     
     return (
-        <div className="food">
-<p  className="food__P">وجباتي</p>
-   <Row>
+    
 
-    <Col  xs={4} id="v">1 of 2</Col>
+        <div className="foods">
+                <p  className="food__P">وجباتي</p>
+
+         <div className="food">
+
+    < >
+
+    <Col  xs={4} id="row">
+<div className="req__ust">
+  <p  className="req__ust__P"> حالة الطلب</p>
 
 
-    <Col>  
-    <  >
+   <Steps direction="vertical" size="small" current={0}>
+ 
+    <Step id="lable__step" title="جاري توصيل الطلب" description="سيصل الك موظف التوصيل في أقرب وقت ممكن    " />
+    <Step title="تم التسيلم  " id="lable__step" description="الطلب الان وصل اليك في المكان المناسب " />
+ 
+ 
+   </Steps>
+ 
+
+</div>
+
+<br />
+
+<div className="req__ust">
+ <div className="secand__step">
+ <p  className="secand__step__P">موعد التوصيل</p>
+
+ <p  className="secand__blue">تعديل  </p>
+
+  
+ </div>
+
+ <div className="therd__step">
+ 
+<img src={time} alr="time" /> 
+<p  className="secand__step__Ps">الفترة الصباحية  </p>
+
+ </div>
+ <br />
+ <div className="therd__step">
+ <img src={comments} alr="comments" /> 
+
+<input className="in__Put" placeholder="اكتب تعليق.... " />
+ </div>
+ <br />
+
+</div>
+    </Col>
+
+   
+    </ >
+
+
+     <  >
          <div className="cell">
           <div className="cell__all">
 
@@ -81,24 +159,24 @@ function Food() {
   
  
 <div className="as">
-<Flickity
+  <Flickity
                 id={'carousel'} // default ''
                 elementType={'div'} // default 'div'
                 options={flickityOptions} // takes flickity options {}
                 disableImagesLoaded={false} // default false
-                pageDots={false}
-
-                data-flickity='{ "groupCells": false }'>
+ 
+                data-flickity='{ "groupCells": true }'>
  
                 {foods.map((food) => (
                     <>
+                    <div className="name__food"  >
          <span className="name__food"  style={{ color: ` ${getBadgeColor(food.role)} ` }}> {food.day}</span>
-
-                  <div value="2" class="carousel-cells"    
+</div>
+                   <div value="2" className="carousel-cells"    
                      >
                   
 
-                    <img src={food.image} class="im" alt="msg" />
+                    <img src={food.image} className="im" alt="msg" />
                     <div className="a">
 
                       <div className="flex__foods">
@@ -116,13 +194,13 @@ function Food() {
                         <Rating name="size-medium" defaultValue={3} />
                       </Stack>
                     </div>
- 
-                  </div>  
+                   </div>  
+  
                         </>
                  ))}
                 </Flickity>    
                       
-
+ 
                </div>
  
         </div>
@@ -130,11 +208,9 @@ function Food() {
 
     </ >
     
-       </Col>
-  </Row>
-   
-             sadddddddddddddddd
-        </div>
+     
+         </div>
+         </div>
     )
 }
 

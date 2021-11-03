@@ -1,0 +1,137 @@
+.bill{
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2 ) ;
+width: 97%;
+margin: auto;
+direction: rtl;
+border-radius:3px;
+align-items: right;
+text-align: right;
+}
+.bill__p{
+font-size: 20px;
+color: #8B8A8A;
+padding: 1rem 4rem .3rem;
+font-weight: 500;
+}
+.all__texts{
+    display: flex;
+    padding-right: 6rem;
+    position: relative;
+    text-align: right;
+    align-items: center;
+
+}
+.line{
+    border-left: 4px solid green;
+    height: 70px;
+    position: absolute;
+    right:7%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.vertical__text{
+    display: flex;
+    text-align: right;
+line-height:.6;
+    flex-direction: column;
+}
+.p__text{
+    font-size: 15px;
+    color: #8B8A8A;
+}
+.span__texts{
+    font-size: 48px;
+    color: #8B8A8A;
+    font-weight: 600;
+}
+.span__texts__sppa{
+    font-size: 25px;
+    color: #8B8A8A;
+}
+
+.pay__now{
+    padding:0rem 14rem 0;
+     display: flex;
+     flex-direction: column;
+  }
+ .pay__now p{
+    font-size: 17px;
+     color: #8B8A8A;
+ 
+    font-weight: 600 !important;
+    margin-top: -.8rem;
+
+ }
+ .pay__nows{
+      color: white !important;
+     font-size: 14px !important;
+     width: 13%;
+     margin-top: -2.8rem;
+     margin-right: 3.5rem;
+     padding: 8px !important;
+     font-weight: 600 !important;
+      border: none !important;
+     background: #7CB264 !important ;
+    }
+
+    #table{
+        direction: rtl;
+        width: 90% !important;
+margin: auto;
+border: none !important;
+    }
+    .right{
+        color: #333333 !important;
+        font-weight: 500 !important;
+        font-size: 19px !important;
+    text-align: right;
+    }
+    /* td{
+        background-color: #333333 !important
+    } */
+    .right__{
+        font-size: 15px !important;
+        font-weight: 600 !important;
+
+    }
+    .rights{
+        color: #8B8A8A !important;
+    }
+    .cen__ter{
+        width: 1.1rem;
+        height: 1.1rem;
+
+    }
+    .green__all{
+        width: 53px;
+        height: 28px;
+  border-radius: 12px;
+  background-color: #DAF2C2;
+display: flex;
+font-size: 10px !important;
+
+align-items: center;
+justify-content: center; 
+color: #8B8A8A !important;
+font-weight: 600;
+}
+
+.yellow__all{
+    width: 53px;
+        height: 28px;
+        color: #8B8A8A !important;
+font-weight: 600;
+  border-radius: 12px;
+  background-color: #FFEBE7;
+display: flex;
+align-items: center;
+font-size: 10px !important;
+
+justify-content: center; 
+}
+.Groups{
+    width: 2.3rem;
+    padding: .3rem;
+}
