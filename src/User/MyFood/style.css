@@ -187,26 +187,45 @@ flex-flow: column-reverse wrap-reverse;
 
 .flickity-button {
     position: absolute;
-    top:100% !important;
+    top:97% !important;
 
      border: none;
     color: rgb(255, 249, 249) !important;
     background: #7CB264 !important ;
 }
 .flickity-prev-next-button.previous{
-    left: 2px;
+    left: 42%;
 }
 .flickity-prev-next-button.next {
-    left: 5% !important;
+    left: 50% !important;
     right: unset !important;
 }
  
 
 
+.left__slid{
+    text-align: left;
+    color: #707070;
+font-size: 15px;
+     display: flex;
+    justify-content: left;
+}
+.carousel-control-prev-icon {
+    
+    background-image: url("../image/arrwo.png") !important;
+    color: #060602;
+    width:1.7rem !important;
+    height: 1.7rem !important;
+}
 
 
 
-
+.carousel-control-next-icon {
+    background-image: url("../image/arrow.png") !important;
+    color: #060602;
+    width:1.7rem !important;
+height: 1.7rem !important;
+}
 
 
 .flickity-enabled.is-draggable .flickity-viewport {
@@ -299,10 +318,10 @@ padding: .7rem;
 }
 .ant-steps-vertical > .ant-steps-item > .ant-steps-item-container > .ant-steps-item-tail {
     position: absolute;
-    top: 33% !important;
+    top: 38% !important;
     right: 22px !important;
     width: 1px;
-     height: 70% !important;
+     height: 55% !important;
     border-width:.1rem;  
     border-style:dotted;
 }
@@ -315,35 +334,43 @@ padding: .7rem;
     color: white !important;
  }
  .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
-    background-color: #7CB264 !important;
+    background-color: transparent !important;
+    color: #707070 !important;
+    font-size: 9px;
+    font-weight: 500;
  }
-
-
-
-
-.flickity-prev-next-button {
-    top: 100% !important;
-    width: 30px !important;
-    height: 30px !important;
-    border-radius: 50%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    transform: translateY(0%) !important;
+ .ant-steps-item-process .ant-steps-item-icon{
+     color: #707070 !important;
+    font-size: 9px;
+    font-weight: 500;
+    background-color: #fff !important;
+    border-color: rgba(0, 0, 0, 0.25) !important;
 }
 
+ span.anticon.anticon-check.ant-steps-finish-icon{
+color: white !important;
 
-     .flickity-enabled.is-draggable {
-        -webkit-tap-highlight-color: transparent;
-        -webkit-user-select: none;
-        user-select: none;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        /* display: flex; */
-        flex-direction: column;
-     }
+ }
+ .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon .ant-steps-icon {
+    color: rgba(0, 0, 0, 0.25) !important;
+}
+ .ant-steps-item-finish .ant-steps-item-icon{
+     border: 1px solid #7CB264 !important;
+     display: flex;
+     align-items: center;
 
+     background-color: #7CB264 !important;
+
+     justify-content: center;
+ }
+ .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+    color: #707070 !important;
+    font-size: 9px !important;
+    padding-left: .3rem !important;
+    text-align: right;
+    font-weight: 400 !important;
+}
+ 
 
    .secand__step{
        display: flex;

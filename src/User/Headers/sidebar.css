@@ -55,6 +55,12 @@ height: 50vh;
          bottom: 12% !important;
          width: 100%;
      }
+
+      #bottoms{
+        position: absolute !important;
+         bottom: 0% !important;
+         width: 100%;
+     }
 .acouunt__dib{
     width: 65%;
     margin: auto;
@@ -177,7 +183,7 @@ padding: 0px !important;
     text-align: center;
     display: flex;
     color: white;
-    border-radius: 18px;
+    border-radius: 12px;
     font-weight: 600;
     font-size: 15px;
     background-color: #7CB264;
@@ -196,13 +202,7 @@ display: none !important;
 }
 
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-     width: 3.5rem !important;
-    height: 3.5rem !important;
-    border-radius: 50%;
-    background-color:#FF987A !important;
-color: yellow !important;
-}
+ 
 
 #modss{
     background-color: #7CB264 !important;
@@ -218,7 +218,7 @@ color: yellow !important;
  
 }
 .taggle__dis{
-    width: 60%;
+    width: 62%;
     margin: auto;
      align-items: center;
     border-radius: 5px;

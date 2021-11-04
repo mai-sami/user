@@ -75,7 +75,12 @@ line-height:.6;
       border: none !important;
      background: #7CB264 !important ;
     }
-
+    #tables{
+        direction: rtl;
+        width: 98% !important;
+margin: auto;
+border: none !important;
+    }
     #table{
         direction: rtl;
         width: 90% !important;

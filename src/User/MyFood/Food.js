@@ -99,11 +99,12 @@ function Food() {
   <p  className="req__ust__P"> حالة الطلب</p>
 
 
-   <Steps direction="vertical" size="small" current={0}>
+   <Steps direction="vertical" size="small" current={1}>
  
-    <Step id="lable__step" title="جاري توصيل الطلب" description="سيصل الك موظف التوصيل في أقرب وقت ممكن    " />
+    <Step   title="جاري توصيل الطلب" id="lable__step" description="سيصل الك موظف التوصيل في أقرب وقت ممكن    " />
     <Step title="تم التسيلم  " id="lable__step" description="الطلب الان وصل اليك في المكان المناسب " />
- 
+    <Step title="تم التسيلم  " id="lable__step" description="الطلب الان وصل اليك في المكان المناسب " />
+
  
    </Steps>
  
@@ -195,11 +196,15 @@ function Food() {
                       </Stack>
                     </div>
                    </div>  
-  
+ 
                         </>
                  ))}
-                </Flickity>    
-                      
+                 </Flickity>    
+                 <span className="left__slid">
+                 <span className="left__slid">24</span>
+                   
+                   :عدد الأيام المتبقية </span>
+
  
                </div>
  

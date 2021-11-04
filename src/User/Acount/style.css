@@ -114,3 +114,42 @@ color: #636260 !important;
 }
 #select__place__p{
  }
+ .form-select{
+     font-size: 13px !important;
+    background-position: left.75rem center !important;
+padding: .875rem 1rem .375rem .75rem !important;
+direction: rtl;
+ color: #8B8A8A !important;
+
+}
+#pre__selects{
+    color: #8b8a8ac0 !important;
+border: 1px solid #6362607a !important;
+width: 100%;
+text-align: right !important;
+margin-bottom:16px;
+font-size: 12.5px !important;
+padding: .6rem !important;
+border-radius: 5px !important;
+padding-right: .8rem !important;
+
+}
+#pre__select{
+    color: #b1a7a7c0 !important;
+    padding-right: .1rem !important;
+padding-top: .8rem !important;
+    text-align: right !important;
+    font-size: 12.5px !important;
+
+}
+ 
+#sure__text__addres {
+    background-color: #7CB264 !important;
+    border: none !important;
+    color: white;
+    width: 40%;
+    padding: 8px;
+    font-weight: 500;
+    margin: 2px;
+
+}

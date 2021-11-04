@@ -1,0 +1,24 @@
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+
+    height: 27px;
+    width: 93%;
+}
+.div__kitchen{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.span__kitchen{
+    color: #8B8A8A;
+    font-size: 12px;
+    padding-top:-.4rem   ;
+    padding-left:  .4rem;
+    font-weight: 400;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+    font-size: 12px !important;
+    color: #8B8A8A !important;
+
+}

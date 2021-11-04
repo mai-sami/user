@@ -1,0 +1,211 @@
+/* responsive hrader and sidebar */
+
+@media (max-width: 400px)  {
+
+    body{
+        background-color: rgb(71, 255, 71) !important;
+    }    
+    .sidebar{
+        width: 25%; 
+    }
+    .navbar-light .navbar-brand{
+        margin: 0 !important;
+    padding: 0 !important;
+    }
+    .sidebaerImage{
+     width: 4rem !important;
+      }
+      .css-10hburv-MuiTypography-root{
+      display: none !important;
+    }
+    .acouunt__dib{
+        width: 99%  ;
+     }
+     .food{
+        display: unset;  ;
+    }
+    #row {
+width: 80% !important;
+     }
+
+     .cell {
+        width: 100% !important;
+        margin:2rem auto !important;
+
+
+     }
+     .carousel-cells {
+
+width: 100%;
+     }
+
+      
+     .acount__div {
+
+        width: 100% !important;
+
+     }
+     .seeting__div {
+        
+
+        width: 100% !important;
+
+     }
+     .pay__nows {
+        width: 90% !important;
+
+     }
+     .right  {
+        font-size: unset !important;
+    }
+
+    .right__{
+        font-size: unset !important;
+
+    }
+       .span__Colos{
+        display: none !important;
+    }
+         
+        .food__P {
+            display: none !important;
+            }
+
+}
+@media (min-width: 411px) and (max-width: 767px) {
+  
+body{
+    background-color: tomato !important;
+}    
+.sidebar{
+    width: 27%; 
+}
+.sidebaerImage{
+ width: 7rem !important;
+  }
+  .css-10hburv-MuiTypography-root{
+  display: none !important;
+}
+.acouunt__dib{
+    width: 99%  ;
+ }
+}
+ 
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    body{
+        background-color: rgb(175, 255, 71) !important;
+
+    }  
+    .sidebaerImage{
+        width: 9rem;
+         }
+         .sidebar{
+            width: 32%; 
+        }
+        .acouunt__dib{
+            width: 99%  ;
+         }
+       
+  }
+  
+  /* start home responsive */
+   @media (min-width: 411px) and (max-width: 767px) {
+  
+    
+    .food{
+        display: unset;  ;
+    }
+    #row {
+width: 80% !important;
+     }
+
+     .cell {
+        width: 100% !important;
+        margin:2rem auto !important;
+
+
+     }
+     .carousel-cells {
+
+width: 50%;
+     }
+
+      
+     .acount__div {
+
+        width: 100% !important;
+
+     }
+     .seeting__div {
+        
+
+        width: 100% !important;
+
+     }
+     .pay__nows {
+        width: 90% !important;
+
+     }
+     .right  {
+        font-size: unset !important;
+    }
+
+    .right__{
+        font-size: unset !important;
+
+    }
+       .span__Colos{
+             font-size: unset !important;
+         }
+         
+        .food__P {
+            display: none !important;
+            }
+    }
+     
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+   
+        .food{
+            display: unset;  ;
+        }
+        #row {
+width: 80% !important;
+         }
+
+         .cell {
+            width: 100% !important;
+            margin:2rem auto !important;
+
+
+         }
+         .acount__div {
+
+            width: 100% !important;
+    
+         }
+         .seeting__div {
+        
+
+            width: 100% !important;
+    
+         }
+         .pay__nows {
+            width: 80% !important;
+
+         }
+         .right  {
+            font-size: unset !important;
+        }
+        .right__{
+            font-size: unset !important;
+
+        }
+        .carousel-cells {
+
+            width: 60%;
+                 }
+            
+        }

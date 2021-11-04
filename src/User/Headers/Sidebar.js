@@ -117,21 +117,31 @@ const taggles = () => {
                     <ListItemButton
                         selected={selectedIndex === 0}
                         onClick={(event) => handleListItemClick(event, 0)}
-                    >
+                    >             <Link  className="linl"  to='/food'>
+
                         <ListItemIcon>
                             <FastfoodIcon />
                         </ListItemIcon>
-                        <Link  className="linl"  to='/food'>
-                        <ListItemText primary="وجباتي" />
                         </Link>
-                    </ListItemButton>
+                                   <Link  className="linl"  to='/food'>
+
+                         <ListItemText primary="وجباتي" />
+                         </Link>
+
+                     </ListItemButton>
                     <ListItemButton
                         selected={selectedIndex === 1}
                         onClick={(event) => handleListItemClick(event, 1)}
                     >
-                        <ListItemIcon>
+                        
+                        
+                        <Link className="linl" to='/account'>
+ 
+                          <ListItemIcon>
                             <PersonIcon />
-                        </ListItemIcon>
+                        </ListItemIcon>        
+                </Link>
+
                         <Link className="linl" to='/account'>
 
                         <ListItemText primary="الحساب" />
@@ -142,9 +152,13 @@ const taggles = () => {
                         selected={selectedIndex === 2}
                         onClick={(event) => handleListItemClick(event, 2)}
                     >
+                                                <Link className="linl" to='/seeting'>
+
                         <ListItemIcon>
                             <SettingsIcon />
                         </ListItemIcon>
+                        </Link>
+
                         <Link className="linl" to='/seeting'>
 
                         <ListItemText primary="الاعدادت" />
@@ -155,9 +169,13 @@ const taggles = () => {
                         selected={selectedIndex === 3}
                         onClick={(event) => handleListItemClick(event, 3)}
                     > 
+                                            <Link className="linl" to='/bills'>
+
                         <ListItemIcon>
                             <ReceiptLongIcon />
                         </ListItemIcon>
+                        </Link>
+
                         <Link className="linl" to='/bills'>
 
                         <ListItemText primary="الفوترة" />
@@ -278,7 +296,8 @@ const taggles = () => {
                 <Modal.Body id="body__sucse">
                     <img src={suucses} alt="" />
                     <br />
-                    <Col>
+                    <p id="yes">     ..تم ارسال طلبك سيتم التواصل معك من قبل الادارة </p>
+                    {/* <Col>
 
 <div className="div__select" controlId="exampleForm.ControlTextarea1">
   <FormLabel id="details" component="legend">      هل ترغب بتوصيل الوجبات إلى مكانك؟</FormLabel>
@@ -289,7 +308,7 @@ const taggles = () => {
   <FormControlLabel value="male" control={<Radio />} label="لا" />
 
 </div>
-</Col>   
+</Col>    */}
   
                 </Modal.Body>
                 <div className="div__buttons">
